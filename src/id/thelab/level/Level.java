@@ -143,7 +143,8 @@ public class Level {
 		g.setColor(Color.white);
 		g.drawString("cam x: " + cam.getX() + " y: " + cam.getY(), 10, 70);
 	}
-
+	
+	// check this self!
 	public void addCollision(final Collision cc) {
 		collisionManager.add(cc);
 	}
