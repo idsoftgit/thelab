@@ -38,9 +38,9 @@ public class ParticleSystem {
 				particles.remove(part);
 			}
 		}
-		if (particles.size() == 0) {
+		/*if (particles.size() == 0) {
 			alive = false;
-		}
+		}*/
 	}
 
 	public void render(final GameContainer gc, final Graphics g, final Camera c) {
