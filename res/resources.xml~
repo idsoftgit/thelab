@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <resource id="name" type="string">The Lab</resource>
+    <resource id="test" type="image" path="res/test.png"/>
+    <resource id="sh" type="spritesheet" path="res/sh.png" th="32" tw="32"/>
+    <resource id="ani1" type="animation" source="resource" path="sh" duration="200" th="32" tw="32"/>
+    <resource id="ani2" type="animation" source="file" path="res/test.png" duration="50" th="64" tw="64"/>
+    <resource id="lamp" type="sound" path="res/lamp.ogg"/>
+    <resource id="music" type="music" path="res/music.ogg"/>
+</resources>

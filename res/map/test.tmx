@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="10" height="10" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="test" tilewidth="64" tileheight="32">
+  <image source="tiles.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="10" height="10">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA43QMQqAMAyF4WeIXVxFBQV71B6tRzOhEWKw4vCRIX8LLQEYgfqGZLeIQVDrHmabk+sUO3puFZvtfKe7BJTUJg6xdzqVzWlt7Njuy6Ht3eel0MmbSnzvLf7Llz8du+4CoSW+ZJABAAA=
+  </data>
+ </layer>
+ <objectgroup name="Слой объектов 1" width="10" height="10">
+  <object type="colision" x="30" y="180" width="195" height="10"/>
+  <object type="door" x="221" y="92" width="5" height="35"/>
+ </objectgroup>
+</map>

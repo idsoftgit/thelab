@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <resource id="name" type="string">The Lab</resource>
+    <resource id="player" type="animation" source="file" path="res/test.png" duration="100" th="64" tw="64"/>
+    <resource id="playerMovingUp" type="animation" source="file" path="res/playerMovingUp.png" duration="100" th="64" tw="64"/>
+    <resource id="playerMovingDown" type="animation" source="file" path="res/playerMovingDown.png" duration="100" th="64" tw="64" />
+    <resource id="playerMovingLeft" type="animation" source="file" path="res/playerMovingLeft.png" duration="100" th="64" tw="64" />
+    <resource id="playerMovingRight" type="animation" source="file" path="res/playerMovingRight.png" duration="100" th="64" tw="64" />
+    <resource id="test" type="spritesheet" path="res/test.png" th="64" tw="64"/>
+    <resource id="sh" type="spritesheet" path="res/sh.png" th="32" tw="32"/>
+    <resource id="ani1" type="animation" source="resource" path="sh" duration="200" th="32" tw="32"/>
+    <resource id="ani2" type="animation" source="file" path="res/test.png" duration="100" th="64" tw="64"/>
+    <resource id="lamp" type="sound" path="res/lamp.ogg"/>
+    <resource id="introMusic" type="music" path="res/music.ogg" />
+    <resource id="particle" type="image" path="res/part.png" />
+</resources>

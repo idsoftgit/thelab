@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="32" height="32" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="aaa" tilewidth="64" tileheight="32">
+  <image source="tiles.png" width="256" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="road"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="grass"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="type" value="grass"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="type" value="road"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="type" value="road"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="type" value="road"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="ground" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2UTQvDIAyG1YKHwm6jG6yH/v9fuQoK4V0+SnXrYTk80A/xSaLJGkLYLmKtpEomJMKN+V9YOml+6sQYMvhjZaSf5srFwvnTF/xYX/TPO1OlrW97tT166m+d/1xzn2Cd5I8EK38rhqz4JRbFbd0/7hnrLznx/cj5c3m39zv4Y7BzP3IX0M/tUb4/dp7hs//OerX+k3gxfqx1j9+6T1nw0/7rnX/SHMyCv3cGaf2v9SP2/oj5J/W9dA5n5p3kxzOUnFxsI/2/xv3ud7/73e/+f/ZvF1Hcb85FHK8AEAAA
+  </data>
+ </layer>
+ <objectgroup name="walls" width="32" height="32">
+  <object name="ccc" type="collisions" x="992" y="32" width="32" height="992"/>
+  <object name="ccc" type="collisions" x="32" y="0" width="992" height="32"/>
+  <object name="ccc" type="collisions" x="0" y="0" width="32" height="992"/>
+  <object name="ccc" type="collisions" x="0" y="992" width="992" height="32"/>
+ </objectgroup>
+</map>
