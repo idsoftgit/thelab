@@ -61,19 +61,21 @@ public class Camera {
 	}
 
 	public Point orthoToIso(final Point p) {
-		return new Point(p.getX() / 2 + p.getY(), p.getY() - p.getX() / 2);
+		return new Point(orthoToIsoX(p.getX(), p.getY()), orthoToIsoY(p.getX(),
+				p.getY()));
 	}
 
 	private float orthoToIsoX(final float x, final float y) {
-		return x / 2 + y;
+		return  x / 2 + y;
 	}
 
 	private float orthoToIsoY(final float x, final float y) {
-		return y - x / 2;
+		return  y - x / 2;
 	}
 
 	public Point isoToOrtho(final Point p) {
-		return new Point(p.getX() - p.getY(), p.getX() / 2 - p.getY() / 2);
+		return new Point(isoToOrthoX(p.getX(), p.getY()), isoToOrthoY(p.getX(),
+				p.getY()));
 	}
 
 	private float isoToOrthoX(final float x, final float y) {
@@ -81,7 +83,7 @@ public class Camera {
 	}
 
 	private float isoToOrthoY(final float x, final float y) {
-		return x / 2 + y / 2;
+		return  x / 2 + y / 2;
 	}
 
 	public Point screenToMap(final Point p) {
